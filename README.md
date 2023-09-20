@@ -1,2 +1,2 @@
 # proyectosplatzi
-Repositorio de los proyectos hechos en base a los conocimientos adquiridos en la Escuela de Desarrolo Web de Platzi :)
+Repo de los proyectos hechos en base a lo aprendido en la Escuela de Desarrollo Web de Platzi :)
