@@ -1,0 +1,52 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 85.5%
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    /* border: 1px solid red; */
+}
+.container {
+    background-color:lightskyblue;
+    position: sticky;
+    height: 550px;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+.container img {
+width: 50%;
+height: 300px;
+object-fit: cover;
+}
+.description {
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.2rem;
+    padding: 3rem;
+}
+.description-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+.description-text {
+    font-size: 1.7rem;
+    line-height: calc(1.7rem + 20%);
+    text-align: justify;
+}
